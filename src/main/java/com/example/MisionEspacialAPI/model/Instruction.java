@@ -1,12 +1,13 @@
 package com.example.MisionEspacialAPI.model;
 
+import com.example.MisionEspacialAPI.DTO.InstructionRequestDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import java.util.Date;
-
+/*representan los datos que se intercambian entre la nave espacial y la Tierra.*/
 @Entity
 public class Instruction {
     @Id
@@ -18,13 +19,18 @@ public class Instruction {
     private String estado; // "Pending", "In Progress", "Completed"
     private String resultado; // Resultado de la instrucción, si aplica
 
-    public Instruction(){}
+    public Instruction(){
+        this.fecha = new Date();
+    }
 
-    public Instruction(Integer id, String accion,String estado)
+    public Instruction(String accion)
     {
-        this.id = id;
+
         this.accion = accion;
-        this.estado = estado;
+        this.fecha = new Date();
+    }
+    public Instruction(InstructionRequestDTO instructionRequestDTO){
+        this.accion = instructionRequestDTO.getAccion();
         this.fecha = new Date();
     }
 

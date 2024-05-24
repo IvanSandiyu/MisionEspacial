@@ -8,12 +8,13 @@ import java.util.Optional;
 
 @Service
 public class TelemetryServicesImpl implements TelemetryService {
+    /*
     @Autowired
     TelemetryRepository telemetryRepository;
 
-    public void showTelemetry(Telemetry t) {
+    public void sendTelemetry(Telemetry t) {
         telemetryRepository.save(t);
     }
-
+*/
 
 }

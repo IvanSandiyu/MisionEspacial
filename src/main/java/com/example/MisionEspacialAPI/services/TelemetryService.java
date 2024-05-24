@@ -7,6 +7,7 @@ import java.util.Optional;
 
 
 public interface TelemetryService {
+    //public void sendTelemetry(Telemetry telemetry);
 
 
 
