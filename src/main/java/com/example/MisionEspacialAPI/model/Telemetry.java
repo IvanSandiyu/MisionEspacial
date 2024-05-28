@@ -13,21 +13,17 @@ public class Telemetry {
 
 
     private Integer id;
-    private String data ;
+    private String instruccion;
+    private String resultado;
     private String accionInstruccion;
 
     public Telemetry(){}
 
-    public Telemetry(String accion){
-        this.accionInstruccion = accion;
-    }
-
-    public String getAccionInstruccion() {
-        return accionInstruccion;
-    }
-
-    public void setAccionInstruccion(String accionInstruccion) {
-        this.accionInstruccion = accionInstruccion;
+    public Telemetry(Integer id,String instruccion,String resultado, String accion_instruccion){
+        this.id = id;
+        this.instruccion = instruccion;
+        this.resultado = resultado;
+        this.accionInstruccion = accion_instruccion;
     }
 
     public Integer getId() {
@@ -38,11 +34,27 @@ public class Telemetry {
         this.id = id;
     }
 
-    public String getData() {
-        return data;
+    public String getInstruccion() {
+        return instruccion;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setInstruccion(String instruccion) {
+        this.instruccion = instruccion;
+    }
+
+    public String getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(String resultado) {
+        this.resultado = resultado;
+    }
+
+    public String getAccionInstruccion() {
+        return accionInstruccion;
+    }
+
+    public void setAccionInstruccion(String accionInstruccion) {
+        this.accionInstruccion = accionInstruccion;
     }
 }

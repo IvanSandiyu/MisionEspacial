@@ -3,11 +3,16 @@ import com.example.MisionEspacialAPI.model.Telemetry;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Map;
 import java.util.Optional;
 
 
 public interface TelemetryService {
-    //public void sendTelemetry(Telemetry telemetry);
+    void receiveTelemetry(Integer id,Map<String, Object> t);
+    void createTelemetry(Telemetry telemetry);
+    /*void insertScan();
+    void insertDeploy();
+    void insertCollect();*/
 
 
 
