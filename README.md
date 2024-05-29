@@ -80,6 +80,8 @@ Entidad CollectSample: se encarga de guardar todos los CollectSample que hubo
 Todas las entidades están conectadas mediante PK Y FK, siendo la PK principal la id de instrucción.
 
 Entidad Instruction: el id se genera automáticamente, nos mostrará la fecha, que acción se ordenó, si la acción se completo o hubo algún error y el resultado
+
+
 ![inst](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/binst.png)
 
 
