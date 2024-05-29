@@ -8,10 +8,16 @@ Para la realización de la API, se utilizó las siguientes tecnologías:
 - Para pruebas de endpoints se utilizó Postman
 
 Para la correcta funcionalización de la API, se deberá ingresar las credenciales desde el endpoint “/authenticate” con el siguiente cuerpo:
+
+
 ![autenticacion](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/authenticate.png)
 
+
 En la cual si todo es correcto, se devolverá en pantalla “Autenticación exitosa”. De lo contrario, la pantalla mostrará “Autenticación fallida”
+
+
 ![autenticacionexitosa](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/auexitosa.png)
+
 
 Luego de autenticarse exitosamente, procederemos al endpoint “/instructions”, en el cual le enviaremos algunas de estas tres opciones:
 ![scan](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/scan.png)
