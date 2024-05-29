@@ -49,7 +49,7 @@ public class ApiRest {
         return "Hola Mundo";
     }
 
-    @PostMapping(value = "/sendInstruction", consumes = "application/json", produces = "application/json")
+    @PostMapping(value = "/instruction", consumes = "application/json", produces = "application/json")
     public ResponseEntity<Map<String,String>> sendInstruction(@RequestBody InstructionRequestDTO instructionRequestDTO) {
         Map response = new HashMap();
         try {
