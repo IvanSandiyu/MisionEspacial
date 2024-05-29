@@ -20,6 +20,8 @@ En la cual si todo es correcto, se devolverá en pantalla “Autenticación exit
 
 
 Luego de autenticarse exitosamente, procederemos al endpoint “/instructions”, en el cual le enviaremos algunas de estas tres opciones:
+
+
 ![scan](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/scan.png)
 
 
