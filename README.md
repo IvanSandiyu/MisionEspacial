@@ -15,14 +15,23 @@ En la cual si todo es correcto, se devolverá en pantalla “Autenticación exit
 
 Luego de autenticarse exitosamente, procederemos al endpoint “/instructions”, en el cual le enviaremos algunas de estas tres opciones:
 ![scan](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/scan.png)
+
+
 ![deply](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/deply.png)
+
+
 ![collect](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/collect.png)
 
+
 Scan: Si todo está correcto, se le mostrará lo siguiente:
+
+
 ![resulScan](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/resultadoScan.png)
 
 
 Deploy Rover: Si está todo correcto, se le mostrará lo siguiente:
+
+
 ![resulRover](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/resultadoRover.png)
 
 
