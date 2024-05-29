@@ -45,15 +45,24 @@ Collect Sample: Si está todo correcto, se le mostrará lo siguiente:
 
 Luego de cada acción, podremos ver las telemetrías a través del endpoint “/telemetry”. Este mostrará la última telemetría de la acción ejecutada. Lo que podremos recibir después de cada telemetría es:
 
+
 Scan: 
+
+
 ![telscan](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/telscan.png)
 
+
 Deploy Rover:
+
+
 ![telrover](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/telrover.png)
 
 
 Collect Sample:
+
+
 ![telsample](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/telsample.png)
+
 
 Base de datos utilizada es Postgresql. Está compuesta por 5 entidades:
 - Instruction
