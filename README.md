@@ -35,7 +35,10 @@ Deploy Rover: Si está todo correcto, se le mostrará lo siguiente:
 ![resulRover](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/resultadoRover.png)
 
 
+
 Collect Sample: Si está todo correcto, se le mostrará lo siguiente:
+
+
 ![resulCollect](https://github.com/IvanSandiyu/MisionEspacial/blob/main/img/resultsample.png)
 
 
